@@ -10,7 +10,7 @@
     <!-- Link Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900;1200&display=swap" rel="stylesheet" />
 
     <!-- Link CSS -->
     <link rel="stylesheet" href="style.css" />
@@ -34,7 +34,7 @@
 
           <ul class="navbar-nav m-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link logo fs-4 text-success" aria-current="page" href="#">Azepp</a>
+              <a class="nav-link logo fs-4" aria-current="page" href="#">Azepp</a>
             </li>
           </ul>
 
@@ -52,14 +52,17 @@
       <!-- Home -->
       <section class="home d-flex align-items-center" id="home">
         <div class="col-6">
-          <h3>Hi, I'm</h3>
+          <h3 class="light">Hi, I'm</h3>
           <span class="typing fs-1 fw-bold"><h1></h1></span>
           <div class="fake"></div>
-          <button class="btn btn-warning fw-bold text-succes">HIRE ME</button>
+          <div class="d-flex gap-2">
+          <button class="btn fw-bold hire">HIRE ME</button>
+          <button class="btn fw-bold cv">DOWNLOAD CV</button>
+          </div>
         </div>
 
         <div class="col-6 text-end">
-          <h3>My Specially Skills</h3>
+          <h3 class="light">My Specially Skills</h3>
           <span class="ketik fs-1 fw-bold"></span>
           <div class="fake"></div>
           <span class="write fs-1 fw-bold"></span>
@@ -71,20 +74,49 @@
     <!-- About -->
     <div class="container-fluid background vh-100">
       <div class="container text-white">
-        <section class="about d-flex align-items-center justify-content-center vh-100">
-          <h1 class="text-align-center">THIS IS ABOUT PAGE</h1>
+        <section class="about d-flex align-items-center vh-100">
+          <div class="col-6">
+            <h1 class="spacing-1 font-green judul bold">about.</h1>
+            <div class="desc font-dark me-4 lh-1 light">
+              <p class="fs-4">I'm a student who is enthusiastic about learning Front End Development and 
+                UI/UX Design.</p>
+              <p class="fs-5">I've enjoyed turning complex problems into simple, beautiful and intuitive design. When I have free time, 
+                  I usually spend it by playing games, reading books, and watching movies.</p>
+            </div>
+
+            <h4 class="bold font-green spacing-3">Follow me on :</h4>
+            <div class="d-flex follow gap-3">
+              <a href="#"><img src="asset/icon/instagram.png" alt=""></a>
+              <a href="#"><img src="asset/icon/github.png" alt=""></a>
+              <a href="#"><img src="asset/icon/linkedin.png" alt=""></a>
+            </div>
+          </div>
+
+          <div class="col-6 ms-5 d-flex justify-content-center">
+            <div class="wrap">
+            <div class="headline d-flex gap-3 align-items-center">
+              <h1 class="spacing-2 font-yellow judul2 reguler">tools</h1>
+              <h5 class="bold font-yellow fs-4">i'v used to develope <br>and design website</h5>
+            </div>
+            <div class="tools">
+              <div class="row justify-content-center my-3">
+                <img src="asset/icon/logoHTML.png" alt="">
+                <img src="asset/icon/logoCSS.png" alt="">
+              </div>
+
+              <div class="row justify-content-center">
+                <img src="asset/icon/js.png" alt="">
+                <img src="asset/icon/figma.png" alt="">
+              </div>
+            </div>
+            </div>
+          </div>
         </section>
       </div>
     </div>
 
     <!-- Project -->
-    <div class="container-fluid vh-100">
-      <div class="container text-white">
-        <section class="about d-flex align-items-center justify-content-center vh-100">
-          <h1 class="text-align-center">THIS IS PROJECT PAGE</h1>
-        </section>
-      </div>
-    </div>
+    
 
     <!-- Link JS -->
     <script src="style.js"></script>

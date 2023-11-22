@@ -1,51 +1,150 @@
 * {
-    font-family: "Lato";
+  font-family: "Lato";
 }
 
 /* Color */
 :root {
-    --black : #0F0F0F;
-    --green : #1A5D1A;
-    --yellow : #F1C93B;
-    
+  --black: #0f0f0f;
+  --green: #1a5d1a;
+  --yellow: #f1c93b;
 }
 
+/* ===element=== */
 
-.text-succes {
-    color: #1A5D1A;
+/* Font Color */
+
+.font-dark {
+    color: #0f0f0f;
 }
 
-.background {
-    background-color: #F1C93B;
+.font-green {
+    color: #1a5d1a;
+}
+
+.font-yellow {
+    color: #f1c93b;
+}
+
+/* Letter Spacing */
+
+.spacing-1 {
+    letter-spacing: -8px;
+}
+
+.spacing-2 {
+    letter-spacing: -6px;
+}
+
+.spacing-3 {
+  letter-spacing: -1px;
+}
+
+/* Font Weight */
+
+.light {
+  font-weight: 300;
+}
+
+.reguler {
+  font-weight: 700;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.fblack {
+  font-weight: 1200;
 }
 
 /* navbar */
 .navbar {
-    background-color: white;
+  background-color: white;
 }
 
 .logo {
-    font-weight: 900;
+  font-weight: 900;
+  color: #1a5d1a;
+  
 }
 
-.btn:hover {
-    color: #F1C93B;
-    background-color: #1A5D1A;
-    border-color: #1A5D1A;
-    transition: all ease-in-out 0.3s;
+.active {
+  position: relative;
+  padding: 0 6px;
+  color: #0f0f0f;
 }
 
+.active:after {
+  content: "";
+  position: absolute;
+  background-color: #1a5d1a;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -6px;
+  transition: 0.3s;
+}
+
+.active:hover:after {
+  width: 100%;
+} 
 
 /* Home */
 .home {
-    height: 90vh;
-    background-image: url(asset/foto/FotoHome.png);
-    background-repeat: no-repeat;
-    background-size: 520px;
-    background-position: bottom ;
+  height: 90vh;
+  background-image: url(asset/foto/FotoHome.png);
+  background-repeat: no-repeat;
+  background-size: 520px;
+  background-position: bottom;
 }
 
 .home .btn {
-    border-radius: 0%;
-    padding: 5px 28px;
+  border-radius: 0%;
+  padding: 5px 28px;
+}
+
+.hire {
+  background-color: #f1c93b;
+  color: #1a5d1a;
+}
+
+.hire:hover {
+  color: #f1c93b;
+  background-color: #1a5d1a;
+  border-color: #1a5d1a;
+  transition: all ease-in-out 0.3s;
+}
+
+.cv {
+  background-color: #f1c93b;
+  color: #1a5d1a;
+}
+
+.cv:hover {
+  color: #f1c93b;
+  background-color: #1a5d1a;
+  border-color: #1a5d1a;
+  transition: all ease-in-out 0.3s;
+}
+
+/* About */
+
+.background {
+  background: linear-gradient(to right, #f1c93b 50%, #1a5d1a 50%);
+}
+
+.judul {
+    font-size: 108px;
+}
+
+.judul2 {
+    font-size: 82px;
+}
+
+.follow img {
+  width: 42px;
+}
+
+.tools img {
+  width: 178px;
 }
