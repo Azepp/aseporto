@@ -1,0 +1,51 @@
+* {
+    font-family: "Lato";
+}
+
+/* Color */
+:root {
+    --black : #0F0F0F;
+    --green : #1A5D1A;
+    --yellow : #F1C93B;
+    
+}
+
+
+.text-succes {
+    color: #1A5D1A;
+}
+
+.background {
+    background-color: #1A5D1A;
+}
+
+/* navbar */
+.navbar {
+    background-color: white;
+}
+
+.logo {
+    font-weight: 900;
+}
+
+.btn:hover {
+    color: #F1C93B;
+    background-color: #1A5D1A;
+    border-color: #1A5D1A;
+    transition: all ease-in-out 0.3s;
+}
+
+
+/* Home */
+.home {
+    height: 90vh;
+    background-image: url(asset/foto/FotoHome.png);
+    background-repeat: no-repeat;
+    background-size: 520px;
+    background-position: bottom ;
+}
+
+.home .btn {
+    border-radius: 0%;
+    padding: 5px 28px;
+}
