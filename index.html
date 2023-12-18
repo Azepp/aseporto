@@ -28,7 +28,7 @@
               <a class="nav-link fw-bold active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold active" aria-current="page" href="#">About</a>
+              <a class="nav-link fw-bold active" aria-current="page" href="#about">About</a>
             </li>
           </ul>
 
@@ -40,10 +40,10 @@
 
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link fw-bold active" aria-current="page" href="#">Project</a>
+              <a class="nav-link fw-bold active" aria-current="page" href="#project">Project</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold active" aria-current="page" href="#">Contact</a>
+              <a class="nav-link fw-bold active" aria-current="page" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -56,8 +56,8 @@
           <span class="typing fs-1 fw-bold"><h1></h1></span>
           <div class="fake"></div>
           <div class="d-flex gap-2">
-          <button class="btn fw-bold hire">HIRE ME</button>
-          <button class="btn fw-bold cv">DOWNLOAD CV</button>
+          <a href="#" target="_blank"><button class="btn fw-bold hire">HIRE ME</button></a>
+          <a href="#" target="_blank""></a><button class="btn fw-bold cv">GET CV</button>
           </div>
         </div>
 
@@ -72,12 +72,12 @@
     </div>
 
     <!-- About -->
-    <div class="container-fluid background vh-100">
+    <div class="container-fluid background vh-100" id="about">
       <div class="container text-white">
         <section class="about d-flex align-items-center vh-100">
           <div class="col-6">
             <h1 class="spacing-1 font-green judul bold">about.</h1>
-            <div class="desc font-dark me-4 lh-1 light">
+            <div class="desc font-dark me-4 lh-sm reguler">
               <p class="fs-4">I'm a student who is enthusiastic about learning Front End Development and 
                 UI/UX Design.</p>
               <p class="fs-5">I've enjoyed turning complex problems into simple, beautiful and intuitive design. When I have free time, 
@@ -86,9 +86,9 @@
 
             <h4 class="bold font-green spacing-3">Follow me on :</h4>
             <div class="d-flex follow gap-3">
-              <a href="#"><img src="asset/icon/instagram.png" alt=""></a>
-              <a href="#"><img src="asset/icon/github.png" alt=""></a>
-              <a href="#"><img src="asset/icon/linkedin.png" alt=""></a>
+              <a href="#" target="_blank"><img src="asset/icon/instagram.png" alt=""></a>
+              <a href="https://github.com/Azepp" target="_blank"><img src="asset/icon/github.png" alt=""></a>
+              <a href="#" target="_blank"><img src="asset/icon/linkedin.png" alt=""></a>
             </div>
           </div>
 
@@ -116,7 +116,186 @@
     </div>
 
     <!-- Project -->
+    <div class="container d-flex align-items-center py-5">
+      <section class="project" id="project">
+        <div class="headline">
+          <h4 class="bold font-green spacing-3">project.</h4>
+          <h1 class="bold font-green spacing-2 see">See my <span class="font-yellow">latest project</span></h1>
+        </div>
+
+        <div class="row mt-5 justify-content-between">
+          <div class="col-md-12 col-sm-12 col-lg-6">
+            <a href="" class="nav-link" target="_blank">
+            <div class="kartu">
+              <div class="thumbnail">
+                <img src="asset/project/smdpri.png" alt="" width="520px" class="rounded-1">
+              </div>
+              <div class="head mt-2 d-flex justify-content-between align-items-center d-flex justify-content-between align-items-center">
+                <p class="bold spacing-3">SMDPrints<br><span class="light font-gray spacing-0">Design & Code</span></p>
+
+                <img src="asset/icon/arrow.png" alt="" height="20px" class="mb-2 arrow">
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-md-12 col-sm-12 col-lg-6">
+            <a href="" class="nav-link" target="_blank">
+            <div class="kartu">
+              <div class="thumbnail">
+                <img src="asset/project/smudaapp.png" alt="" width="520px" class="rounded-1">
+              </div>
+              <div class="head mt-2 d-flex justify-content-between align-items-center">
+                <p class="bold spacing-3">Semudah App<br><span class="light font-gray spacing-0">Design</span></p>
+
+                <img src="asset/icon/arrow.png" alt="" height="20px" class="mb-2 arrow">
+
+              </div>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-md-12 col-sm-12 col-lg-6">
+            <a href="" class="nav-link" target="_blank">
+            <div class="kartu ">
+              <div class="thumbnail">
+                <img src="asset/project/itece.png" alt="" width="520px" class="rounded-1">
+              </div>
+              <div class="head mt-2 d-flex justify-content-between align-items-center">
+                <p class="bold spacing-3">Ekstrakurikuler website<br><span class="light font-gray spacing-0">Design</span></p>
+                <img src="asset/icon/arrow.png" alt="" height="20px" class="mb-2 arrow">
+
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-md-12 col-sm-12 col-lg-6">
+            <a href="" class="nav-link" target="_blank">
+            <div class="kartu ">
+              <div class="thumbnail">
+                <img src="asset/project/inlogyc.png" alt="" width="520px" class="rounded-1">
+              </div>
+              <div class="head mt-2 d-flex justify-content-between align-items-center">
+                <p class="bold spacing-3">Inlogyc Website<br><span class="light font-gray spacing-0">Design</span></p>
+                <img src="asset/icon/arrow.png" alt="" height="20px" class="mb-2 arrow">
+
+              </div>
+            </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Contact -->
+    <div class="container my-3">
+      <section class="contact" id="contact">
+        <div class="headline mb-4">
+          <h4 class="bold font-green spacing-3">contact.</h4>
+          <h1 class="bold font-yellow spacing-2 see">Let's make <span class="font-green">a project to realize</span></h1>
+        </div>
+
+        <div class="contact d-flex gap-4">
+          <div class="col-5 contact-right p-4 font-green">
+            <div class="top-cont">
+            <h2 class="bold spacing-3">Contact Information</h2>
+            <p>Fill up the form and i will get back to you wihtin 24 hours</p>
+            <div class="info">
+              <div class="row mb-4 d-flex align-items-center gap-4">
+                <div class="col-1"><img src="asset/icon/telpon.png" alt=""></div>
+                <div class="col"><p class="m-0">+62 95365452088</p></div>
+              </div>
+
+              <div class="row mb-4 d-flex align-items-center gap-4">
+                <div class="col-1"><img src="asset/icon/gmail.png" alt=""></div>
+                <div class="col"><p class="m-0">zidanathallahwinata@gmail.com</p></div>
+              </div>
+
+              <div class="row d-flex align-items-center gap-4">
+                <div class="col-1"><img src="asset/icon/locate.png" alt=""></div>
+                <div class="col"><p class="m-0">North Jakarta, DKI Jakarta, Indonesia</p></div>
+              </div>
+              </div>
+              <div class="bottom-cont d-flex justify-content-center">
+                <div class="d-flex follow gap-3">
+                  <a href="#" target="_blank"><img src="asset/icon/instagram.png" alt=""></a>
+                  <a href="https://github.com/Azepp" target="_blank"><img src="asset/icon/github.png" alt=""></a>
+                  <a a href="#" target="_blank"><img src="asset/icon/linkedin.png" alt=""></a>
+                 </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="contact-left col">
+            <h1 class="bold font-green mb-3">Send me the message</h1>
+
+            <form action="https://formspree.io/f/myyrgeeb" method="post">
+
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control border-success border-1" id="floatingInput" placeholder="name@example.com" name="name" required>
+              <label for="name" class="font-green reguler">Name</label>
+            </div>
+
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control border-success border-1" id="floatingInput" placeholder="name@example.com" name="email" required>
+              <label for="email" class="font-green reguler">Email</label>
+            </div>
+
+            <label for="" class="mb-3">What type of website do you need?</label><br>
+
+            <div class="check mb-3">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" name="design" type="checkbox" id="inlineCheckbox1" value="Web Design">
+              <label class="form-check-label" for="design">Web Design</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="development" id="inlineCheckbox2" value="Web Development">
+              <label class="form-check-label" for="development">Web Development</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="other" id="inlineCheckbox2" value="Other">
+              <label class="form-check-label" for="other">Other</label>
+            </div>
+            </div>
+
+            <div class="form-floating">
+              <textarea class="form-control border-1 border-success" name="message" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="message" class="reguler font-green">Message</label>
+            </div>
+            
+            <div class="row mt-3 align-items-end" style="height: 110px;">
+            <div class="col-4 ms-auto">
+            <a href="#" target="_blank" class=""><button class="btn fw-bold hire rounded-0 cv fs-6 px-4">SEND MESSAGE</button></a>
+            </div>
+
+            </div>
+
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
     
+    <!-- Footer -->
+    <footer class="font-yellow container-fluid py-3 d-flex mt-5 d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+      <div class="title">
+        <h4 class="bold d-flex align-items-center m-0">© Azepp</h4>
+      </div>
+
+      <div class="halaman">
+        <ul class="halaman-ul d-flex align-items-center m-0">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      </div>
+    </footer>
 
     <!-- Link JS -->
     <script src="style.js"></script>

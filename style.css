@@ -7,6 +7,7 @@
   --black: #0f0f0f;
   --green: #1a5d1a;
   --yellow: #f1c93b;
+  --gray: #969696;
 }
 
 /* ===element=== */
@@ -14,25 +15,33 @@
 /* Font Color */
 
 .font-dark {
-    color: #0f0f0f;
+  color: #0f0f0f;
 }
 
 .font-green {
-    color: #1a5d1a;
+  color: #1a5d1a;
 }
 
 .font-yellow {
-    color: #f1c93b;
+  color: #f1c93b;
+}
+
+.font-gray {
+  color: #969696;
 }
 
 /* Letter Spacing */
 
+.spacing-0 {
+  letter-spacing: normal;
+}
+
 .spacing-1 {
-    letter-spacing: -8px;
+  letter-spacing: -8px;
 }
 
 .spacing-2 {
-    letter-spacing: -6px;
+  letter-spacing: -6px;
 }
 
 .spacing-3 {
@@ -65,7 +74,6 @@
 .logo {
   font-weight: 900;
   color: #1a5d1a;
-  
 }
 
 .active {
@@ -87,7 +95,7 @@
 
 .active:hover:after {
   width: 100%;
-} 
+}
 
 /* Home */
 .home {
@@ -134,11 +142,11 @@
 }
 
 .judul {
-    font-size: 108px;
+  font-size: 108px;
 }
 
 .judul2 {
-    font-size: 82px;
+  font-size: 82px;
 }
 
 .follow img {
@@ -147,4 +155,86 @@
 
 .tools img {
   width: 178px;
+}
+
+/* project */
+
+.see {
+  font-size: 82px;
+}
+
+.project .kartu {
+  border-radius: 8px;
+  background-color: white;
+  filter: drop-shadow(1px 3px 7px rgba(22, 87, 30, 0.1)) drop-shadow(4px 12px 12px rgba(22, 87, 30, 0.09)) drop-shadow(10px 26px 17px rgba(22, 87, 30, 0.05)) drop-shadow(17px 46px 20px rgba(22, 87, 30, 0.01))
+    drop-shadow(27px 73px 22px rgba(22, 87, 30, 0));
+  width: max-content;
+  padding: 10px 10px 0 10px;
+  transition: ease-in-out 0.2s;
+}
+
+.project .kartu:hover {
+  filter: drop-shadow(1px 3px 7px rgba(22, 87, 30, 0.15)) drop-shadow(4px 11px 12px rgba(22, 87, 30, 0.13)) drop-shadow(9px 25px 16px rgba(22, 87, 30, 0.08)) drop-shadow(17px 45px 19px rgba(22, 87, 30, 0.02))
+    drop-shadow(26px 70px 21px rgba(22, 87, 30, 0));
+}
+
+.kartu .head {
+  padding: 2px 0;
+}
+
+.kartu .arrow {
+  opacity: 0;
+  transition: ease-in-out 1s;
+  margin-right: 100px;
+}
+
+.kartu:hover .arrow {
+  opacity: 1;
+  animation-duration: 0.3s;
+  margin-right: 10px;
+}
+
+/* Contact */
+
+.contact-right {
+  background-color: #f1c93b;
+  height: 32rem;
+  border-radius: 10px;
+}
+
+.bottom-cont {
+  margin-top: 170px;
+}
+
+footer {
+  background-color: #1a5d1a;
+}
+
+.halaman-ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.halaman-ul a {
+  color: #f1c93b;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.form-check-input:checked {
+  background-color: green !important;
+  border: 0;
+}
+
+
+.form-check-input:focus,
+.label::after,
+label.form-check-label:focus,
+.form-check-input::after,
+.form-check-input:not(:disabled):not(.disabled):active:focus {
+  color: black;
+  outline: 0;
+  border: 0;
+  box-shadow: 0 0 0 0.1rem rgba(0, 128, 0, 0.363) !important;
 }
