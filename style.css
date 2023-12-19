@@ -168,7 +168,6 @@
   background-color: white;
   filter: drop-shadow(1px 3px 7px rgba(22, 87, 30, 0.1)) drop-shadow(4px 12px 12px rgba(22, 87, 30, 0.09)) drop-shadow(10px 26px 17px rgba(22, 87, 30, 0.05)) drop-shadow(17px 46px 20px rgba(22, 87, 30, 0.01))
     drop-shadow(27px 73px 22px rgba(22, 87, 30, 0));
-  width: max-content;
   padding: 10px 10px 0 10px;
   transition: ease-in-out 0.2s;
 }
@@ -212,21 +211,22 @@ footer {
 
 .halaman-ul {
   display: flex;
-  list-style: none;
   gap: 20px;
 }
 
 .halaman-ul a {
   color: #f1c93b;
-  text-decoration: none;
   font-weight: 700;
+}
+
+.halaman-ul .nav-link:hover {
+  color: #fcc912 !important;
 }
 
 .form-check-input:checked {
   background-color: green !important;
   border: 0;
 }
-
 
 .form-check-input:focus,
 .label::after,
@@ -237,4 +237,121 @@ label.form-check-label:focus,
   outline: 0;
   border: 0;
   box-shadow: 0 0 0 0.1rem rgba(0, 128, 0, 0.363) !important;
+}
+
+@media screen and (max-width: 576px) {
+  .about-right {
+    margin: 0 !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* Navbar */
+
+  .mobile-nav {
+    position: sticky;
+  }
+
+  .nav-logo {
+    display: none;
+    margin: 0 !important;
+  }
+
+  .nav-link {
+    margin-bottom: 8px;
+  }
+
+  /* Home */
+  .home {
+    flex-direction: column;
+    height: 90vh;
+    text-align: center !important;
+    justify-content: end;
+    background-size: 580px;
+  }
+
+  .home .home-mobile {
+    justify-content: space-between !important;
+    text-align: left;
+    width: 100%;
+  }
+
+  .fons {
+    font-size: 20px !important;
+  }
+
+  .home-left {
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 3px;
+    color: white;
+    backdrop-filter: blur(5px);
+  }
+
+  .button-home {
+    margin-top: 10px;
+  }
+
+  .home-right {
+    display: none;
+  }
+
+  .home .text-end {
+    text-align: center !important;
+  }
+
+  .follow img {
+    width: 32px;
+  }
+
+  /* About */
+  .xabout {
+    height: 100vh !important;
+    background-color: white;
+  }
+
+  .background {
+    background: #f1c93b;
+  }
+
+  .about {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-right {
+    display: none !important;
+  }
+
+  .about-mobile {
+    background-color: #1a5d1a;
+  }
+
+  .d-none {
+    display: flex !important;
+  }
+
+  .d-none .p {
+    margin: 0;
+  }
+
+  /* Contact */
+
+  .contact {
+    flex-direction: column-reverse;
+  }
+
+  .button-message {
+    height: max-content !important;
+    margin-bottom: 30px;
+  }
+
+  .see {
+    font-size: 72px;
+    letter-spacing: -6px;
+  }
+
+  .bottom-cont {
+    margin-top: 200px !important;
+  }
 }
