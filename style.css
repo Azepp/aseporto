@@ -243,6 +243,22 @@ label.form-check-label:focus,
   .about-right {
     margin: 0 !important;
   }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .casep {
+    margin-bottom: 8px !important;
+  }
+
+  .used {
+    font-size: 19px !important;
+  }
+
+  .bottom-cont {
+    margin-top: 180px !important;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -267,7 +283,7 @@ label.form-check-label:focus,
     height: 90vh;
     text-align: center !important;
     justify-content: end;
-    background-size: 580px;
+    background-size: 420px;
   }
 
   .home .home-mobile {
@@ -347,11 +363,13 @@ label.form-check-label:focus,
   }
 
   .see {
-    font-size: 72px;
-    letter-spacing: -6px;
+    font-size: 58px !important;
+    letter-spacing: -3px;
   }
 
   .bottom-cont {
     margin-top: 200px !important;
   }
+
+  /* Footer */
 }
