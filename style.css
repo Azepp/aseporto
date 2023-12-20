@@ -244,6 +244,14 @@ label.form-check-label:focus,
     margin: 0 !important;
   }
 
+  .home {
+    flex-direction: column;
+    height: 90vh;
+    text-align: center !important;
+    justify-content: end;
+    background-size: 380px;
+  }
+
   .footer {
     flex-direction: column;
   }
@@ -253,11 +261,11 @@ label.form-check-label:focus,
   }
 
   .used {
-    font-size: 19px !important;
+    font-size: 16px !important;
   }
 
   .bottom-cont {
-    margin-top: 180px !important;
+    margin-top: 150px !important;
   }
 }
 
