@@ -239,7 +239,7 @@ label.form-check-label:focus,
   box-shadow: 0 0 0 0.1rem rgba(0, 128, 0, 0.363) !important;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 657px) {
   .about-right {
     margin: 0 !important;
   }
@@ -262,6 +262,10 @@ label.form-check-label:focus,
 
   .bottom-cont {
     height: 200px !important;
+  }
+
+  .fons {
+    font-size: 18px !important;
   }
 }
 
@@ -294,10 +298,6 @@ label.form-check-label:focus,
     justify-content: space-between !important;
     text-align: left;
     width: 100%;
-  }
-
-  .fons {
-    font-size: 20px !important;
   }
 
   .home-left {
