@@ -264,9 +264,6 @@ label.form-check-label:focus,
     font-size: 16px !important;
   }
 
-  .bottom-cont {
-    margin-top: 0 !important;
-  }
 }
 
 @media screen and (max-width: 992px) {
@@ -376,7 +373,7 @@ label.form-check-label:focus,
   }
 
   .bottom-cont {
-    margin-top: 200px !important;
+    margin-top: 180px !important;
   }
 
   /* Footer */
