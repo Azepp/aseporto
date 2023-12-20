@@ -202,7 +202,7 @@
 }
 
 .bottom-cont {
-  margin-top: 170px;
+  height: 220px;
 }
 
 footer {
@@ -245,11 +245,7 @@ label.form-check-label:focus,
   }
 
   .home {
-    flex-direction: column;
-    height: 90vh;
-    text-align: center !important;
-    justify-content: end;
-    background-size: 380px;
+    background-size: 380px !important;
   }
 
   .footer {
@@ -264,6 +260,9 @@ label.form-check-label:focus,
     font-size: 16px !important;
   }
 
+  .bottom-cont {
+    height: 220px !important;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -373,7 +372,7 @@ label.form-check-label:focus,
   }
 
   .bottom-cont {
-    margin-top: 180px !important;
+    height: 250px;
   }
 
   /* Footer */
