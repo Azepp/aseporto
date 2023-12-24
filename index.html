@@ -1,126 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv=”refresh” content=”5" >
-    <title>Azepp Portofolio</title>
-    <!-- Link Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
-    <!-- Link Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900;1200&display=swap" rel="stylesheet" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv=”refresh” content=”5">
+  <title>Azepp Portofolio</title>
+  <!-- Link Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
-    <!-- Link CSS -->
-    <link rel="stylesheet" href="style.css" />
+  <!-- Link Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900;1200&display=swap" rel="stylesheet" />
 
-    <!-- link cdn -->
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="container mobile-nav d-none d-flex align-items-center justify-content-center">
-          <a class="navbar-brand logo fs-4 col" aria-current="page" href="#">Azepp</a>
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css" />
 
-          <button class="navbar-toggler border-success border-2" id="navbarToggleBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="bi bi-list fs-1 text-success"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link fw-bold active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-bold active" aria-current="page" href="#about">About</a>
-            </li>
-          </ul>
+  <!-- link cdn -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
 
-          <ul class="navbar-nav m-auto">
-            <li class="nav-item">
-              <a class="nav-link logo nav-logo fs-4" aria-current="page" href="#">Azepp</a>
-            </li>
-          </ul>
+<body>
+  <div class="container">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container mobile-nav d-none d-flex align-items-center justify-content-center">
+        <a class="navbar-brand logo fs-4 col" aria-current="page" href="#">Azepp</a>
 
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link fw-bold active" aria-current="page" href="#project">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-bold active" aria-current="page" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        <button class="navbar-toggler border-success border-2" id="navbarToggleBtn" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="bi bi-list fs-1 text-success"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link fw-bold active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold active" aria-current="page" href="#about">About</a>
+          </li>
+        </ul>
 
-      <!-- Home -->
-      <section class="home d-flex align-items-center" id="home">
-        <div class="home-mobile d-flex align-items-center justify-content-between mb-5 d-none">
-          <div class="kiri col-8">
-            <h3 class="light fons">My Specially Skills</h3>
-            <span class="ketik fs-3 fons fw-bold"></span>
-            <div class="fake"></div>
-            <span class="write fs-3 fons fw-bold"></span>
-          </div>
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a class="nav-link logo nav-logo fs-4" aria-current="page" href="#">Azepp</a>
+          </li>
+        </ul>
 
-          <div class="kanan col-4">
-            <div class="d-flex follow gap-3 flex-column justify-content-end align-items-end">
-              <a href="#" target="_blank"><img src="asset/icon/instagram.png" alt=""></a>
-              <a href="https://github.com/Azepp" target="_blank"><img src="asset/icon/github.png" alt=""></a>
-              <a href="#" target="_blank"><img src="asset/icon/linkedin.png" alt=""></a>
-            </div>
-          </div>
-        </div>
-        
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link fw-bold active" aria-current="page" href="#project">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold active" aria-current="page" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-        <div class="col-lg-6 home-left">
-          <h3 class="light">Hi, I'm</h3>
-          <span class="typing fs-1 fw-bold"><h1></h1></span>
+    <!-- Home -->
+    <section class="home d-flex align-items-center" id="home">
+      <div class="home-mobile d-flex align-items-center justify-content-between mb-5 d-none">
+        <div class="kiri col-8">
+          <h3 class="light fons">My Specially Skills</h3>
+          <span class="ketik fs-3 fons fw-bold"></span>
           <div class="fake"></div>
-          <div class="d-flex gap-2 button-home">
-          <a href="#" target="_blank"><button class="btn fw-bold hire">HIRE ME</button></a>
-          <a href="#" target="_blank""></a><button class="btn fw-bold cv">GET CV</button>
+          <span class="write fs-3 fons fw-bold"></span>
+        </div>
+
+        <div class="kanan col-4">
+          <div class="d-flex follow gap-3 flex-column justify-content-end align-items-end">
+            <a href="https://www.instagram.com/zdnee.a?igsh=YTQwZjQ0NmI0OA==" target="_blank"><img src="asset/icon/instagram.png" alt=""></a>
+            <a href="https://github.com/Azepp" target="_blank"><img src="asset/icon/github.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/zidane-athallah-9a864928a/" target="_blank"><img src="asset/icon/linkedin.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-6 home-left">
+        <h3 class="light">Hi, I'm</h3>
+        <span class="typing fs-1 fw-bold">
+          <h1></h1>
+        </span>
+        <div class="fake"></div>
+        <div class="d-flex gap-2 button-home">
+          <a href="#contact" target="_self"><button class="btn fw-bold hire">HIRE ME</button></a>
+          <a href="#" target="_blank"></a><button class=" btn fw-bold cv">GET CV</button>
+        </div>
+      </div>
+
+      <div class="col-lg-6 text-end home-right">
+        <h3 class="light">My Specially Skills</h3>
+        <span class="ketik-desk fs-1 fw-bold"></span>
+        <div class="fake"></div>
+        <span class="write-desk fs-1 fw-bold"></span>
+      </div>
+  </div>
+  </section>
+  </div>
+
+  <!-- About -->
+  <div class="container-fluid background xabout" id="about">
+    <div class="container about">
+      <section class="about d-flex align-items-center vh-100">
+        <div class="col-lg-6 col-md-12 col-sm-12 about-left">
+          <h1 class="spacing-1 font-green judul bold">about.</h1>
+          <div class="desc font-dark me-4 lh-sm">
+            <p class="fs-4">I'm a student who is enthusiastic about learning Front End Development and
+              UI/UX Design.</p>
+            <p class="fs-5">I've enjoyed turning complex problems into simple, beautiful and intuitive design. When I
+              have free time,
+              I usually spend it by playing games, reading books, and watching movies.</p>
+          </div>
+
+          <h4 class="bold font-green spacing-3">Follow me on :</h4>
+          <div class="d-flex follow gap-3">
+            <a href="https://www.instagram.com/zdnee.a?igsh=YTQwZjQ0NmI0OA==" target="_blank"><img src="asset/icon/instagram.png" alt=""></a>
+            <a href="https://github.com/Azepp" target="_blank"><img src="asset/icon/github.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/zidane-athallah-9a864928a/" target="_blank"><img src="asset/icon/linkedin.png" alt=""></a>
           </div>
         </div>
 
-        <div class="col-lg-6 text-end home-right">
-          <h3 class="light">My Specially Skills</h3>
-          <span class="ketik-desk fs-1 fw-bold"></span>
-          <div class="fake"></div>
-          <span class="write-desk fs-1 fw-bold"></span>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <!-- About -->
-    <div class="container-fluid background xabout" id="about">
-      <div class="container about">
-        <section class="about d-flex align-items-center vh-100">
-          <div class="col-lg-6 col-md-12 col-sm-12 about-left">
-            <h1 class="spacing-1 font-green judul bold">about.</h1>
-            <div class="desc font-dark me-4 lh-sm reguler">
-              <p class="fs-4">I'm a student who is enthusiastic about learning Front End Development and 
-                UI/UX Design.</p>
-              <p class="fs-5">I've enjoyed turning complex problems into simple, beautiful and intuitive design. When I have free time, 
-                  I usually spend it by playing games, reading books, and watching movies.</p>
-            </div>
-
-            <h4 class="bold font-green spacing-3">Follow me on :</h4>
-            <div class="d-flex follow gap-3">
-              <a href="#" target="_blank"><img src="asset/icon/instagram.png" alt=""></a>
-              <a href="https://github.com/Azepp" target="_blank"><img src="asset/icon/github.png" alt=""></a>
-              <a href="#" target="_blank"><img src="asset/icon/linkedin.png" alt=""></a>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-12 col-sm-12 ms-5 d-flex justify-content-center about-right">
-            <div class="wrap">
+        <div class="col-lg-6 col-md-12 col-sm-12 ms-5 d-flex justify-content-center about-right">
+          <div class="wrap">
             <div class="headline d-flex gap-3 align-items-center">
               <h1 class="spacing-2 font-yellow judul2 reguler">tools</h1>
               <h5 class="bold font-yellow fs-4">i'v used to develope <br>and design website</h5>
@@ -136,64 +144,65 @@
                 <img src="asset/icon/figma.png" alt="">
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- About Mobile -->
+
+  <div class="about-mobile vh-100 d-flex justify-content-center align-items-center d-none">
+    <div class="container">
+      <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
+        <div class="wrap">
+          <div class="headline d-flex gap-3 align-items-center">
+            <h1 class="spacing-2 font-yellow judul2 reguler">tools</h1>
+            <h5 class="bold font-yellow fs-4 used">i'v used to develope <br>and design website</h5>
+          </div>
+          <div class="tools">
+            <div class="row justify-content-center my-3">
+              <img src="asset/icon/logoHTML.png" alt="">
+              <img src="asset/icon/logoCSS.png" alt="">
+            </div>
+
+            <div class="row justify-content-center">
+              <img src="asset/icon/js.png" alt="">
+              <img src="asset/icon/figma.png" alt="">
             </div>
           </div>
-        </section>
-      </div>
-    </div>
-
-    <!-- About Mobile -->
-
-    <div class="about-mobile vh-100 d-flex justify-content-center align-items-center d-none">
-      <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
-            <div class="wrap">
-            <div class="headline d-flex gap-3 align-items-center">
-              <h1 class="spacing-2 font-yellow judul2 reguler">tools</h1>
-              <h5 class="bold font-yellow fs-4 used">i'v used to develope <br>and design website</h5>
-            </div>
-            <div class="tools">
-              <div class="row justify-content-center my-3">
-                <img src="asset/icon/logoHTML.png" alt="">
-                <img src="asset/icon/logoCSS.png" alt="">
-              </div>
-
-              <div class="row justify-content-center">
-                <img src="asset/icon/js.png" alt="">
-                <img src="asset/icon/figma.png" alt="">
-              </div>
-            </div>
-            </div>
         </div>
       </div>
     </div>
+  </div>
 
 
-    <!-- Project -->
-    <div class="container d-flex align-items-center py-5">
-      <section class="project" id="project">
-        <div class="headline">
-          <h4 class="bold font-green spacing-3">project.</h4>
-          <h1 class="bold font-green spacing-2 see lh-1">See my <span class="font-yellow">latest project</span></h1>
-        </div>
+  <!-- Project -->
+  <div class="container d-flex align-items-center py-5">
+    <section class="project" id="project">
+      <div class="headline">
+        <h4 class="bold font-green spacing-3">project.</h4>
+        <h1 class="bold font-green spacing-2 see lh-1">See my <span class="font-yellow">latest project</span></h1>
+      </div>
 
-        <div class="row mt-5 justify-content-between">
-          <div class="col-md-12 col-lg-6 col-sm-12 mb-3">
-            <a href="" class="nav-link" target="_blank">
+      <div class="row mt-5 justify-content-between">
+        <div class="col-md-12 col-lg-6 col-sm-12 mb-3">
+          <a href="https://www.figma.com/proto/8BBww8M7DNl3Tk4SoBOWgv/Pak-Sinung?page-id=0%3A1&node-id=501-2&starting-point-node-id=501%3A2&scaling=scale-down-width&mode=design&t=teIHwUYH1is8mdj3-1" class="nav-link" target="_blank">
             <div class="kartu">
               <div class="thumbnail">
                 <img src="asset/project/smdpri.png" alt="" class="rounded-1 col-12">
               </div>
-              <div class="head mt-2 d-flex justify-content-between align-items-center d-flex justify-content-between align-items-center">
+              <div
+                class="head mt-2 d-flex justify-content-between align-items-center d-flex justify-content-between align-items-center">
                 <p class="bold spacing-3">SMDPrints<br><span class="light font-gray spacing-0">Design & Code</span></p>
 
                 <img src="asset/icon/arrow.png" alt="" height="20px" class="mb-2 arrow">
               </div>
             </div>
-            </a>
-          </div>
-          <div class="col-md-12 col-lg-6 col-sm-12 mb-3">
-            <a href="" class="nav-link" target="_blank">
+          </a>
+        </div>
+        <div class="col-md-12 col-lg-6 col-sm-12 mb-3">
+          <a href="https://www.figma.com/file/bLTpO1PUdPhOq1VM5N02DY/Semudah-App?type=design&node-id=0%3A1&mode=design&t=iazYtYd4Ti8sPTFz-1" class="nav-link" target="_blank">
             <div class="kartu">
               <div class="thumbnail">
                 <img src="asset/project/smudaapp.png" alt="" class="rounded-1 col-12">
@@ -205,28 +214,29 @@
 
               </div>
             </div>
-            </a>
-          </div>
+          </a>
         </div>
+      </div>
 
-        <div class="row">
-          <div class="col-md-12 col-lg-6 col-sm-12 mb-3">
-            <a href="" class="nav-link" target="_blank">
+      <div class="row">
+        <div class="col-md-12 col-lg-6 col-sm-12 mb-3">
+          <a href="https://www.figma.com/file/7KAUzFlMdl1jV2UODwFqnU/ITC?type=design&node-id=0%3A1&mode=design&t=LBXBRe15brq3u4lO-1" class="nav-link" target="_blank">
             <div class="kartu ">
               <div class="thumbnail">
                 <img src="asset/project/itece.png" alt="" class="rounded-1 col-12">
               </div>
               <div class="head mt-2 d-flex justify-content-between align-items-center">
-                <p class="bold spacing-3">Ekstrakurikuler website<br><span class="light font-gray spacing-0">Design</span></p>
+                <p class="bold spacing-3">Ekstrakurikuler website<br><span
+                    class="light font-gray spacing-0">Design</span></p>
                 <img src="asset/icon/arrow.png" alt="" height="20px" class="mb-2 arrow">
 
               </div>
             </div>
-            </a>
-          </div>
+          </a>
+        </div>
 
-          <div class="col-md-12 col-lg-6 col-sm-12">
-            <a href="" class="nav-link" target="_blank">
+        <div class="col-md-12 col-lg-6 col-sm-12">
+          <a href="https://www.figma.com/file/fGuaYFBdgZSAn9uOmiPlZ9/Lomba-C4?type=design&node-id=0%3A1&mode=design&t=jwvkyrRFIAW8YBDk-1" class="nav-link" target="_blank">
             <div class="kartu ">
               <div class="thumbnail">
                 <img src="asset/project/inlogyc.png" alt="" class="rounded-1 col-12">
@@ -237,105 +247,119 @@
 
               </div>
             </div>
-            </a>
-          </div>
+          </a>
         </div>
-      </section>
-    </div>    
+      </div>
+    </section>
+  </div>
 
-    <!-- Contact -->
-    <div class="container my-3">
-      <section class="" id="contact">
-        <div class="headline mb-4">
-          <h4 class="bold font-green spacing-3">contact.</h4>
-          <h1 class="bold font-yellow spacing-2 see lh-1">Let's make <span class="font-green">a project to realize</span></h1>
-        </div>
+  <!-- Contact -->
+  <div class="container my-3">
+    <section class="" id="contact">
+      <div class="headline mb-4">
+        <h4 class="bold font-green spacing-3">contact.</h4>
+        <h1 class="bold font-yellow spacing-2 see lh-1">Let's make <span class="font-green">a project to realize</span>
+        </h1>
+      </div>
 
-        <div class="contact d-flex gap-4">
-          <div class="col-lg-5 col-md-12 col-sm-12 contact-right p-4 font-green">
-            <div class="top-cont">
+      <div class="contact d-flex gap-4">
+        <div class="col-lg-5 col-md-12 col-sm-12 contact-right p-4 font-green">
+          <div class="top-cont">
             <h2 class="bold spacing-3">Contact Information</h2>
             <p>Fill up the form and i will get back to you wihtin 24 hours</p>
             <div class="info">
               <div class="row mb-4 d-flex align-items-center gap-4">
                 <div class="col-1"><img src="asset/icon/telpon.png" alt=""></div>
-                <div class="col"><p class="m-0">+62 95365452088</p></div>
+                <div class="col">
+                  <p class="m-0">+62 95365452088</p>
+                </div>
               </div>
 
               <div class="row mb-4 d-flex align-items-center gap-4">
                 <div class="col-1"><img src="asset/icon/gmail.png" alt=""></div>
-                <div class="col"><p class="m-0">zidanathallahwinata@gmail.com</p></div>
+                <div class="col">
+                  <p class="m-0">zidanathallahwinata@gmail.com</p>
+                </div>
               </div>
 
               <div class="row d-flex align-items-center gap-4">
                 <div class="col-1"><img src="asset/icon/locate.png" alt=""></div>
-                <div class="col"><p class="m-0">North Jakarta, DKI Jakarta, Indonesia</p></div>
+                <div class="col">
+                  <p class="m-0">North Jakarta, DKI Jakarta, Indonesia</p>
+                </div>
               </div>
-              </div>
-              <div class="bottom-cont d-flex justify-content-center align-items-end">
-                <div class="d-flex follow gap-3">
-                  <a href="#" target="_blank"><img src="asset/icon/instagram.png" alt=""></a>
-                  <a href="https://github.com/Azepp" target="_blank"><img src="asset/icon/github.png" alt=""></a>
-                  <a a href="#" target="_blank"><img src="asset/icon/linkedin.png" alt=""></a>
-                 </div>
+            </div>
+            <div class="bottom-cont d-flex justify-content-center align-items-end">
+              <div class="d-flex follow gap-3">
+                <a href="https://www.instagram.com/zdnee.a?igsh=YTQwZjQ0NmI0OA==" target="_blank"><img src="asset/icon/instagram.png" alt=""></a>
+                <a href="https://github.com/Azepp" target="_blank"><img src="asset/icon/github.png" alt=""></a>
+                <a a href="https://www.linkedin.com/in/zidane-athallah-9a864928a/" target="_blank"><img src="asset/icon/linkedin.png" alt=""></a>
               </div>
             </div>
           </div>
+        </div>
 
 
-          <div class="contact-left col-lg col-sm-12 col-md-12">
-            <h1 class="bold font-green mb-3">Send me the message</h1>
+        <div class="contact-left col-lg col-sm-12 col-md-12">
+          <h1 class="bold font-green mb-3">Send me the message</h1>
 
-            <form action="https://formspree.io/f/myyrgeeb" method="post" id="myForm" onsubmit="clearInputs()">
+          <form action="https://formspree.io/f/myyrgeeb" method="post" id="myForm" onsubmit="clearInputs()">
 
             <div class="form-floating mb-3">
-              <input type="text" class="form-control border-success border-1" id="nameInput" placeholder="name@example.com" name="name" required>
+              <input type="text" class="form-control border-success border-1" id="nameInput"
+                placeholder="name@example.com" name="name" required>
               <label for="name" class="font-green reguler">Name</label>
             </div>
 
             <div class="form-floating mb-3">
-              <input type="email" class="form-control border-success border-1" id="emailInput" placeholder="name@example.com" name="email" required>
+              <input type="email" class="form-control border-success border-1" id="emailInput"
+                placeholder="name@example.com" name="email" required>
               <label for="email" class="font-green reguler">Email</label>
             </div>
 
             <label for="" class="mb-3 reguler">What type of website do you need?</label><br>
 
             <div class="check mb-3">
-            <div class="form-check form-check-inline">
-              <input class="form-check-input border-success" name="design" type="checkbox" id="designInput" value="Web Design">
-              <label class="form-check-label font-dark reguler" for="design">Web Design</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input border-success" type="checkbox" name="development" id="devInput" value="Web Development">
-              <label class="form-check-label font-dark reguler" for="development">Web Development</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input border-success" type="checkbox" name="other" id="otherInput" value="Other">
-              <label class="form-check-label font-dark reguler" for="other">Other</label>
-            </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input border-success" name="design" type="checkbox" id="designInput"
+                  value="Web Design">
+                <label class="form-check-label font-dark reguler" for="design">Web Design</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input border-success" type="checkbox" name="development" id="devInput"
+                  value="Web Development">
+                <label class="form-check-label font-dark reguler" for="development">Web Development</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input border-success" type="checkbox" name="other" id="otherInput"
+                  value="Other">
+                <label class="form-check-label font-dark reguler" for="other">Other</label>
+              </div>
             </div>
 
             <div class="form-floating">
-              <textarea class="form-control border-1 border-success" name="message" placeholder="Leave a comment here" id="messInput" style="height: 100px"></textarea>
+              <textarea class="form-control border-1 border-success" name="message" placeholder="Leave a comment here"
+                id="messInput" style="height: 100px"></textarea>
               <label for="message" class="reguler font-green">Message</label>
             </div>
 
             <div class="row mt-3 align-items-end button-message" style="height: 110px;">
               <div class="col-lg-4 ms-auto">
-              <a href="https://formspree.io/f/myyrgeeb" target="_blank" class=""><button type="submit" class="btn fw-bold hire rounded-0 cv fs-6 px-4">SEND MESSAGE</button></a>
+                <a href="https://formspree.io/f/myyrgeeb" target="_blank" class=""><button type="submit"
+                    class="btn fw-bold hire rounded-0 cv fs-6 px-4">SEND MESSAGE</button></a>
               </div>
             </div>
-            </form>
-            
+          </form>
 
-          </div>
+
         </div>
-      </section>
-    </div>
-    
-    <!-- Footer -->
-    <footer class="font-yellow container-fluid py-3 d-flex mt-5 d-flex align-items-center">
-      <div class="container d-flex align-items-center justify-content-between footer">
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="font-yellow container-fluid py-3 d-flex mt-5 d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between footer">
       <div class="title col-lg">
         <h4 class="bold d-flex align-items-center m-0 casep col-sm-12 col-md">©Azepp</h4>
       </div>
@@ -348,11 +372,14 @@
           <li><a href="#contact" class="nav-link p-0">Contact</a></li>
         </ul>
       </div>
-      </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!-- Link JS -->
-    <script src="style.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+  <!-- Link JS -->
+  <script src="style.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
